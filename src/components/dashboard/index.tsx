@@ -17,7 +17,6 @@ function Dashboard(): ReactElement {
     };
     
     navigate('/thankyou', {state: formFields.companyName});
-
   }
 
   return (

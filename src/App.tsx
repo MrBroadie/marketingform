@@ -23,8 +23,8 @@ function App(): ReactElement {
       </div>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/feedback" element={<Dashboard/>}/>
-        <Route path="/thankyou" element={<SubmittedPage/>}/>
+        <Route path="feedback" element={<Dashboard/>}/>
+        <Route path="thankyou" element={<SubmittedPage/>}/>
       </Routes>
     </Router>
   );

@@ -5,10 +5,9 @@ function SubmittedPage(): ReactElement {
 
   const {state} = useLocation();
   console.log(state)
-
   return (
     <>
-      <h1>Thank you for your feedback </h1>
+      <h1>Thank you for your feedback</h1>
     </>
   )
 }

@@ -2,11 +2,9 @@ import React, { ReactElement } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Dashboard(): ReactElement {
+  const navigate = useNavigate();
 
   function submitHandler(event: any): void {
-
-    const navigate = useNavigate();
-
     event.preventDefault();
 
     const formFields = {
